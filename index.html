@@ -8,21 +8,23 @@
 </head>
 <body>
     <div class="main">
-        <div class="screen"></div>
+        <div id="src1" class="screen"></div>
         <div class="butt">
-            <button id="stone">Stone</button>
-            <button id="paper">Paper</button>
-            <button id="scissor">Scissor</button>
+            <button   onclick="addImage()" id="stone">Stone</button>
+            <button  onclick="add2Image()" id="paper">Paper</button>
+            <button  onclick="add3Image()" id="scissor">Scissor</button>
         </div>
     </div>
     <div class="main">
-        <div class="screen"></div>
+        <div  id="src2" class="screen"></div>
         <div class="butt">
-            <button id="stone1">Stone</button>
-            <button id="paper1">Paper</button>
-            <button id="scissor1">Scissor</button>
+            <button  onclick="sumImage()"  id="stone1">Stone</button>
+            <button onclick="sum2Image()" id="paper1">Paper</button>
+            <button  onclick="sum3Image()" id="scissor1">Scissor</button>
         </div>
     </div>
+  
 </body>
+  
 <script src="script.js"></script>
 </html>
