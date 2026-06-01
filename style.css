@@ -1,32 +1,59 @@
 body{
-    background-color: rgb(212, 90, 90);
+    background-color: white;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+      align-items: center;
+
+   
+    
 }
 .main{
-    background-color: rgb(155, 251, 251);
+    background-color: #7FB77E;
     display: flex;
     flex-direction: column;
     height: 500px;
     width: 400px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     padding: 3px;
+    border-radius: 0.76rem;
+    margin-top: 54px;
 }
 .screen{
-    background-color: gray;
+    display: flex;
+    justify-content: center;
+    background-color: #DCCCAC;
     height: 300px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
+    border-radius: 0.76rem;
 }
 .butt{
     margin-top: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    
+   
 }
 button{
     height: 30px;
     width: 60px;
     font-weight: 700;
-    border: 2px black solid ;
+    /* border: 2px black solid ; */
+    cursor: pointer;
+    border-radius: o.77rem;
+}
+
+#src1{
+    display: flex;
+    justify-content: center;
+    margin-top: 3px;
+    align-items: center;
+}
+
+#src2{
+    display: flex;
+    justify-content: center;
+    margin-top: 3px;
+    align-items: center;
 }
