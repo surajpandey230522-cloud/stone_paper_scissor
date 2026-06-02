@@ -1,13 +1,14 @@
-body{
+.game{
     background-color: white;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-      align-items: center;
+      align-items: center; 
 
    
     
 }
+
 .main{
     background-color: #7FB77E;
     display: flex;
@@ -17,7 +18,7 @@ body{
     /* border: 2px solid black; */
     padding: 3px;
     border-radius: 0.76rem;
-    margin-top: 54px;
+    margin-top: 40px;
 }
 .screen{
     display: flex;
@@ -56,4 +57,22 @@ button{
     justify-content: center;
     margin-top: 3px;
     align-items: center;
+}
+
+#jiya{
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+   
+}
+
+.sum{
+    background-color: #A2CB8B;
+    height: 35px;
+    width :400px ;
+    font-size:22px ;
+    display: flex;
+    justify-content: center;
 }
