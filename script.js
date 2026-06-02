@@ -104,29 +104,48 @@ scissor1.addEventListener("click",(element)=>{
 function addImage() {
     document.getElementById("src1").innerHTML =
         '<img src="https://media.gettyimages.com/id/170215830/photo/limestone.jpg?s=612x612&w=0&k=20&c=qkOXtIKgSbjSSWGPQdD-KAlh1_C5-U_B6_WpWMTRDzo=" width="300">';
+
+        setTimeout(() => {
+        src1.innerHTML = "";
+    }, 2000);
 }
 
 function add2Image() {
     document.getElementById("src1").innerHTML =
         '<img src="https://media.gettyimages.com/id/2171109477/vector/white-coloured-crumpled-crushed-wrinkled-crinkled-divided-segregated-paper-folded-into-half.jpg?s=612x612&w=0&k=20&c=KmAiB4f3IMtISMdrF-dpEdmJgMt-Ww8PKxaqp6Eqzt8=" width="300">';
+                setTimeout(() => {
+        src1.innerHTML = "";
+    }, 2000);
 }
 
 function add3Image() {
     document.getElementById("src1").innerHTML =
         '<img src="https://media.gettyimages.com/id/175601846/photo/isolated-shot-of-opened-black-handle-scissors-on-white-background.jpg?s=612x612&w=0&k=20&c=l5Vx3vLgm70BrZ7efGNM7Z1DZ-BsQA6rBRy4SHTlNaM=" width="300">';
+                setTimeout(() => {
+        src1.innerHTML = "";
+    }, 2000);
 }
 
 function sumImage() {
     document.getElementById("src2").innerHTML =
      '<img src="https://media.gettyimages.com/id/170215830/photo/limestone.jpg?s=612x612&w=0&k=20&c=qkOXtIKgSbjSSWGPQdD-KAlh1_C5-U_B6_WpWMTRDzo=" width="300">';
+             setTimeout(() => {
+        src2.innerHTML = "";
+    }, 2000);
 }
 
 function sum2Image() {
     document.getElementById("src2").innerHTML =
           '<img src="https://media.gettyimages.com/id/2171109477/vector/white-coloured-crumpled-crushed-wrinkled-crinkled-divided-segregated-paper-folded-into-half.jpg?s=612x612&w=0&k=20&c=KmAiB4f3IMtISMdrF-dpEdmJgMt-Ww8PKxaqp6Eqzt8=" width="300">';
+                  setTimeout(() => {
+        src2.innerHTML = "";
+    }, 2000);
 }
 
 function sum3Image() {
     document.getElementById("src2").innerHTML =
          '<img src="https://media.gettyimages.com/id/175601846/photo/isolated-shot-of-opened-black-handle-scissors-on-white-background.jpg?s=612x612&w=0&k=20&c=l5Vx3vLgm70BrZ7efGNM7Z1DZ-BsQA6rBRy4SHTlNaM=" width="300">';
+                 setTimeout(() => {
+        src2.innerHTML = "";
+    },2000);
 }
