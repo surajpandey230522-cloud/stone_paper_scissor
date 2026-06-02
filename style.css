@@ -71,8 +71,8 @@ button{
 .sum{
     background-color: #A2CB8B;
     height: 35px;
-    width :400px ;
+    width :300px ;
     font-size:22px ;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
